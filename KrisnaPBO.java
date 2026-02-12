@@ -12,15 +12,15 @@ class Pekerja{
 
     // Method to set kehadiran
     public void hadir(){
-        System.out.println("Pekerja dengan nama: " + nama + " Masuk Kerja");
+        System.out.println("Pekerja dengan nama: " + nama + " (masuk kerja)");
         System.out.println("-----------------------");
     }
     public void tidakHadir(){
-        System.out.println("Pekerja dengan nama: " + nama + " Tidak Masuk Kerja");
+        System.out.println("Pekerja dengan nama: " + nama + " (tidak masuk kerja)");
         System.out.println("-----------------------");
     }
     public void izin(){
-        System.out.println("Pekerja dengan nama: " + nama + " Izin");
+        System.out.println("Pekerja dengan nama: " + nama + " (izin)");
         System.out.println("-----------------------");
     }
 
