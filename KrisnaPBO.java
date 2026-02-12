@@ -26,8 +26,15 @@ public class KrisnaPBO{
             pekerja2.nama = "Dodo";
             pekerja2.email = "Dodo@mail.com";
 
+        // Objek 3
+            Pekerja pekerja3 = new Pekerja();
+            pekerja3.id = "3";
+            pekerja3.nama = "Septian";
+            pekerja3.email = "Septian@mail.com";
+
             System.out.println("Berikut Data Pekerja:");
             pekerja1.data();
             pekerja2.data();
+            pekerja3.data();
     }
 }
